@@ -3,6 +3,7 @@
 }
 :root {
     --font-heading: sen, sans-serif;
+    --primary-color: #ffb900;
 }
 
 html {
@@ -34,6 +35,30 @@ body {
 a {
     text-decoration: none;
 }
+.heading {
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    font-family: var(--font-heading);
+}
+.heading.lv1 {
+    font-size: 5.8rem;
+    line-height: 1.17;
+}
+.heading.lv2 {
+    font-size: 3.8rem;
+    line-height: 1.26;
+}
+
+.desc {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+}
+.desc.lv1 {
+    font-size: 1.8rem;
+    line-height: 1.67;
+}
+
 /* end common */
 .header {
     background: #fffcf4;
@@ -159,13 +184,6 @@ a {
     width: 52%;
     padding: 64px 0 0 130px;
 }
-.content-block .heading {
-    font-weight: 700;
-    font-size: 5.8rem;
-    line-height: 68px;
-    letter-spacing: -0.02em;
-    font-family: var(--font-heading);
-}
 
 .content-block .desc {
     font-family: "Poppins";
@@ -208,12 +226,7 @@ a {
     font-weight: 600;
     font-size: 1.8rem;
 }
-.content-block .desc {
-    font-family: "Poppins";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.8rem;
-}
+
 .content-block .value {
     color: #171100;
     width: 54px;
@@ -224,4 +237,35 @@ a {
 }
 .hero-sumary .title {
     padding: 5px 0;
+}
+
+/* popular */
+.popular {
+    padding: 65px 0;
+    margin-top: 135px;
+}
+
+.popular .popular-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.popular .control {
+    display: flex;
+    gap: 18px;
+}
+.popular .control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.popular .control-btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
 }

@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "../../../javascript/lesson_1"
+		},
+		{
+			"path": "."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "htmlcss-project-02"
+    }
+}
