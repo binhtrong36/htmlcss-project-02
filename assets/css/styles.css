@@ -445,3 +445,26 @@ a {
 
     color: #ffffff;
 }
+/* features */
+.feature {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+.feature .body {
+    display: flex;
+}
+.feature .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.feature .images img {
+    width: 270 px;
+    height: 404px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.feature img.lower {
+    margin-top: 34px;
+}
