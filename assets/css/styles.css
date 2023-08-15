@@ -518,3 +518,61 @@ a {
 .blog .blog-top {
     text-align: center;
 }
+.blog-list img {
+    width: 370px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px 16px 0px 0px;
+    justify-content: space-evenly;
+}
+.blog-list {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+.blog-list .item {
+    background-color: #fff;
+}
+
+.blog-top .lv2 {
+    color: #130606;
+    text-align: center;
+    font-family: Sen;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+
+.blog-top .desc {
+    padding-top: 16px;
+}
+.blog .item .info {
+    padding-top: 20px;
+}
+
+.item .title {
+    padding-top: 24px;
+    color: #171100;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75;
+}
+.item .item-btn {
+    display: inline-block;
+    margin-top: 24px;
+    height: 50px;
+    line-height: 25px;
+    margin-bottom: 28px;
+}
+
+.item .item-btn.active {
+    display: inline-block;
+    margin-top: 24px;
+    height: 50px;
+    line-height: 25px;
+    margin-bottom: 28px;
+    background: var(--primary-color);
+}
